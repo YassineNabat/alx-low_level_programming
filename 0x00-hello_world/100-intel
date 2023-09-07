@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Set the C file name
-CFILE=0-main.c
-
-# Generate the assembly code using GCC with Intel syntax
-gcc -S -masm=intel $CFILE
-
-# Rename the output file to match the C file with .s extension
-mv ${CFILE%.c}.s $CFILE.s
+gcc -S -masm-intel $CFILE
