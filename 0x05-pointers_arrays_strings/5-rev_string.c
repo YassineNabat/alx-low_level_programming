@@ -2,8 +2,11 @@
 
 /*
  * rev_string - Reverses a string
+ *
  * @s: Input string
- * Return: String in reverse
+ *
+ * Description: This function takes a pointer to a string as its parameter
+ * and reverses the characters of the string in-place.
  */
 
 void rev_string(char *s)

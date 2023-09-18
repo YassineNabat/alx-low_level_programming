@@ -3,7 +3,9 @@
 /*
  * print_rev - imprime en reversa
  * @s: string
- * return: 0
+ * 
+ * Description: This function takes a pointer to a string as its parameter
+ * and prints the characters of the string in reverse order.
  */
 
 void print_rev(char *s)
