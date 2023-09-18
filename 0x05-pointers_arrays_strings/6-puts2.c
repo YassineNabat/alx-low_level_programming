@@ -1,12 +1,12 @@
 #include "main.h"
 
 /*
- * puts2 - function should print only one character out of two
- * starting with the first one
+ * puts2 - Prints every other character of a string.
  *
- * @str: input
+ * @str: A pointer to the string to be printed.
  *
- * Return: print
+ * Description: This function takes a pointer to a string as its parameter
+ * and prints every other character of the string, starting with the first character.
  */
 
 void puts2(char *str)
