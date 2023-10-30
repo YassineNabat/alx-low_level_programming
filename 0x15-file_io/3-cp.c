@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 
+char *create_buffer(char *file);
+void close_file(int fd);
+
 /**
  * error_file - checks if files can be opened.
  * @file_from: file_from.
