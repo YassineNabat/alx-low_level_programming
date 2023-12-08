@@ -3,7 +3,9 @@
 /*
  * print_dlistint - prints all the elements of the list.
  * @h: The head of the dlistint_t list
- * @nodes : to hold data and to link to other nodes in the list
+ *
+ * This function prints all the elements of the list starting from the head.
+ * It traverses the list and prints the data of each node.
  *
  * Return: the number of nodes
  */
